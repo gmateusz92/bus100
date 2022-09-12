@@ -49,3 +49,4 @@ def login1(request):
 def logoutUser(request):
 	logout(request)
 	return redirect('login1')
+
